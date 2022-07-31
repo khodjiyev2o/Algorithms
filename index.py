@@ -1,8 +1,7 @@
-
 # from getpass import getpass
 # password = getpass('this password will not be seen in the console")
 
-#1-problem (zip,)
+# 1-problem (zip,)
 # names = ['Samandar','Ravshan']
 # heroes = ['Spiderman','Betman']
 
@@ -10,13 +9,13 @@
 #     print(hero,name)
 
 
-# x=2 
+# x=2
 # x = 1 if x else 2
 # ##print(x)
 
-#2-problem
-# a,b,*c = (1,2,3,4,5,6,7) 
-# ##print(a,b,c) 
+# 2-problem
+# a,b,*c = (1,2,3,4,5,6,7)
+# ##print(a,b,c)
 
 
 ##3
@@ -35,8 +34,7 @@
 # print(dir(getpass))
 
 
-
-#Generators
+# Generators
 # my_sentence = 'this is a test'
 # def range(sentence):
 #     words = sentence.split()
@@ -44,7 +42,6 @@
 #         yield word
 
 # sentence = range(my_sentence)
-
 
 
 # Generators taks-2
@@ -57,9 +54,6 @@
 # nums = square_numbers(arr)
 
 # [print(num) for num in nums]
-
-
-
 
 
 # people = ['S1mple','Ax1le','Hobbit','Nafany']
@@ -89,8 +83,6 @@
 # [print(g) for g in l]
 
 
-
-
 # #Fizzbuzz problem
 
 # for i in range(1,105):
@@ -102,33 +94,28 @@
 #          print(f"{i} is Buzz")
 #     else:
 #          print(f"{i} is nothing")
-        
+
 
 # set is a python data type which has no duplicates in it .Even if you insert duplicated while releasing it is not going to return one item two times
 
 
-
-#Fibonacci sequence
+# Fibonacci sequence
 
 # def fibonacci(num):
 #     a,b = 0,1
 #     for i in range(1,num):
 #          a,b = b,a+b
 #          yield a
-         
-         
 
 
 # for item in fibonacci(10):
 #     print(item)
 
 
-
-
-#OOP revision
+# OOP revision
 # class Person:
 #     def __init__(self,name):
-#         self.name = name 
+#         self.name = name
 
 
 #     def intro(self):
@@ -149,3 +136,13 @@
 
 # person.intro()
 # hero.intro()
+
+
+list = []
+
+for i in range(2, 98):
+    if i % 2 == 0:
+        list.append(i)
+
+
+print(list)
