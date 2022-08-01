@@ -145,4 +145,10 @@ for i in range(2, 98):
         list.append(i)
 
 
-print(list)
+start = 0
+end = 49
+
+for i in range(start,end,4):
+    print(list[i:i+4])
+        
+
