@@ -140,15 +140,26 @@
 
 list = []
 
-for i in range(2, 98):
-    if i % 2 == 0:
-        list.append(i)
+#for i in range(2, 98):
+ #   if i % 2 == 0:
+  #      list.append(i)
 
 
-start = 0
-end = 49
+#start = 0
+#end = 49
 
-for i in range(start,end,4):
-    print(list[i:i+4])
+#for i in range(start,end,4):
+ #   print(list[i:i+4])
         
+#def convert(string):
+ #  count = 0
+  # result = ''
+   #for n,i in enumerate(string):
+    #  count +=1
+     # print(n,i)
+     # if n == len(string)-1 or i != string[n+1]:
+      #   result += f"{i}{count}"
+       #  count = 0
+   #return result
 
+#print(convert('abbccc'))
