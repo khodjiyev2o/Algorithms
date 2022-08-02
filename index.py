@@ -163,3 +163,13 @@ list = []
    #return result
 
 #print(convert('abbccc'))
+
+
+#name reverser
+def reverse_word(name):
+    reverse_name = ''
+    for i in range(1,(len(name)+1)):
+        reverse_name+=name[-i]
+    return reverse_name
+
+print(reverse('samandar'))
