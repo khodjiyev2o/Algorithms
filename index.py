@@ -34,6 +34,16 @@
 # print(dir(getpass))
 
 
+
+#find   number 7 
+# seven = []
+# not_seven = []
+# def seven_numbers():
+#     [print(i) if '7' in str(i) else print(f"{i} does not have 7") for i in range(1000) ]
+
+# seven_numbers()
+
+
 # Generators
 # my_sentence = 'this is a test'
 # def range(sentence):
